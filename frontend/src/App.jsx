@@ -5,7 +5,7 @@ import abi from './utils/CoffeePortal.json';
 
 const App = () => {
   const [currentAccount, setCurrentAccount] = useState("");
-    const contractAddress = "0xf36F71E018Cc3036db2cfBE9e89C517F78B6a14E";
+    const contractAddress = "Contract_address";
   const contractABI = abi.abi;
   const [allWaves, setAllCoffee] = React.useState([]);
   const[message, setMessage] = React.useState("");
